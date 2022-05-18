@@ -24,7 +24,7 @@ class Main {
             System.out.println("you have: $" + playerMoney +"\nHow much will you bet:");
             double playerBet = sc.nextDouble();
             if (playerBet > playerMoney) {
-                System.out.println("please kill yourself loser");
+                System.out.println("please stop playing ;) ");
                 break;
             }
             boolean endRound = false;
@@ -112,6 +112,6 @@ class Main {
             System.out.println("--------------------------------------");
         }
             System.out.println("______________________");
-            System.out.println("you fucking suck");
+            System.out.println("you lost");
     }
 }
